@@ -9,7 +9,7 @@ export class DataService {
    }
 
   getDatos(){
-    return this.http.get<Post[]>('https://jsonplaceholder.tipicode.com/posts');
+    return this.http.get<Post[]>('');
   }
    
 
